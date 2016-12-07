@@ -23,7 +23,7 @@ $(function () { // shorthand for $(document).ready(...)
     $.ajax({
       type:     "GET",
       dataType: "jsonp",
-      url:      "http://fraktguide.bring.no/fraktguide/api/postalCode.json",
+      url:      "https://fraktguide.bring.no/fraktguide/api/postalCode.json",
       data: {
         country: "no",
         pnr:     postnr
