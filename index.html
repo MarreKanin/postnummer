@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Postnummersøk med jQuery</title>
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <div class="coverpic"></div>
+    <div class="coveroverlay"></div>
+    <form>
+      <div class="zipsearch">
+        <label class="ziplabel" for="#postnr">postnummer</label>
+        <input class="zipfield" pattern="[0-9]*" maxlength="4" autofocus id="postnr">
+      </div>
+      <div class="city">
+        <label class="citylabel" for="#poststed">by</label>
+        <input class="cityfield" disabled="disabled" id="poststed">
+      </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/postnr.js"></script>
+  </body>
+</html>

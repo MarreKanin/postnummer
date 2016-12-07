@@ -1,0 +1,6 @@
+@import "_body"; //basic settings like fonts and colors
+@import "_header"; //stylesheet for header
+@import "_sections"; //stylesheet for sections/content
+@import "_mobile"; //stylesheet for mobile media query
+
+//run this with "sass --watch style.scss:style.css"

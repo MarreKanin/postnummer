@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title Postnummersøk med jQuery
+    meta(charset='utf-8')
+    link(href='css/style.css', rel='stylesheet')
+    link(rel='shortcut icon', href='favicon.png', type='image/x-icon')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet")
+  body
+    .coverpic
+    .coveroverlay
+    form
+      .zipsearch
+        label(for="#postnr").ziplabel postnummer
+        input( pattern="[0-9]*" maxlength="4" autofocus)#postnr.zipfield
+      .city
+        label(for="#poststed").citylabel by
+        input(disabled="disabled")#poststed.cityfield
+
+
+    script(src='https://code.jquery.com/jquery-3.1.1.min.js')
+    script(src='js/postnr.js')
+
+//- run this file with "pug -w -P index.pug"
+    if you use browser-sync, browser-sync start --server --files "css/*.css"

@@ -1,0 +1,59 @@
+body {
+  height: 100vh;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  background-color: #DB0A5B; }
+  body .coverpic {
+    background-image: url(../img/postkasse.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    filter: blur(10px); }
+  body .coveroverlay {
+    background-color: #DB0A5B;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    background-blend-mode: darken;
+    opacity: 0.5; }
+
+form {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%); }
+  form .zipsearch, form .city {
+    display: inline-block;
+    margin: 20px; }
+    form .zipsearch label, form .city label {
+      display: block;
+      margin: 20px 0px;
+      font-size: 20px;
+      display: inline-block;
+      background-color: #E4F1FE;
+      padding: 4px 10px; }
+    form .zipsearch .citylabel, form .city .citylabel {
+      background-color: #BDC3C7; }
+    form .zipsearch input, form .city input {
+      text-align: center;
+      font-size: 25px;
+      display: block;
+      height: 40px;
+      border: 2px solid transparent;
+      transition: 0.3s all ease-in-out; }
+      form .zipsearch input:focus, form .city input:focus {
+        outline: none;
+        border: 2px solid black;
+        background-color: #F2F1EF;
+        transition: 0.3s all ease-in-out; }
+      form .zipsearch input:disabled, form .city input:disabled {
+        color: #34495E; }
+    form .zipsearch .cityfield, form .city .cityfield {
+      background-color: #BDC3C7;
+      border: 2px solid transparent; }
+
+/*# sourceMappingURL=style.css.map */
