@@ -1,7 +1,7 @@
 # Ignore docs files
 css/.sass-cache
 css/.sass-cache/*
-cdd/*.sass
+css/*.sass
 *.pug
 
 # yo
