@@ -1,7 +1,7 @@
 # postnummer
 ##   Template for getting Norwegian postal names from postal codes.
 
-![How it looks](https://raw.githubusercontent.com/Marremaskin/postnummer/master/img/postnummer.jpg width="400px")
+![How it looks](https://raw.githubusercontent.com/Marremaskin/postnummer/master/img/postnummer.jpg)
 
 ###### Requires:
 > jQuery
